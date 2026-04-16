@@ -32,7 +32,7 @@ spring:
           okta:
             client-id: ${OKTA_CLIENT_ID}
             client-secret: ${OKTA_CLIENT_SECRET}
-            scope: openid, profile, email, offline_access
+            scope: openid, profile, email, groups, offline_access
         provider:
           okta:
             issuer-uri: ${OKTA_ISSUER}
